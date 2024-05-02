@@ -1,0 +1,287 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Thu May  2 12:08:45 2024
+[*]
+[dumpfile] "/mnt/d/Google_Drive_Win10_UPC/UBA_MSE/09_SDC/Software/VHDL/Personal/modem/verification/tb_test_modem_channel/waves.fst"
+[dumpfile_mtime] "Thu May  2 12:07:57 2024"
+[dumpfile_size] 1849925
+[savefile] "/mnt/d/Google_Drive_Win10_UPC/UBA_MSE/09_SDC/Software/VHDL/Personal/modem/verification/tb_test_modem_channel/ej09.gtkw"
+[timestart] 0
+[size] 1908 997
+[pos] -530 -252
+*-34.180145 60040000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_test_modem_channel.
+[treeopen] tb_test_modem_channel.dut.
+[treeopen] tb_test_modem_channel.dut.u_modem.
+[treeopen] tb_test_modem_channel.dut.u_modem.u_dem.
+[treeopen] tb_test_modem_channel.dut.u_modem.u_dem.u_symb_sync.
+[treeopen] tb_test_modem_channel.dut.u_modem.u_mod.
+[sst_width] 448
+[signals_width] 315
+[sst_expanded] 1
+[sst_vpaned_height] 292
+@200
+-Curso SDC
+-Ejercicio 09
+-Carlos Herrera Trujillo
+-
+-
+-
+-TB timing and control
+@28
+tb_test_modem_channel.tb_dut_clk_i
+tb_test_modem_channel.tb_dut_en_i
+tb_test_modem_channel.tb_dut_srst_i
+@200
+-
+-Signal Controls
+@28
+tb_test_modem_channel.dut.u_modem.u_mod.send_i
+tb_test_modem_channel.dut.u_modem.u_mod.tx_rdy_o
+tb_test_modem_channel.dut.u_modem.u_dem.rx_ovf_o
+@200
+----
+@24
+tb_test_modem_channel.dut.u_modem.u_mod.nm1_bytes_i[7:0]
+tb_test_modem_channel.dut.u_modem.u_mod.nm1_pre_i[7:0]
+tb_test_modem_channel.dut.u_modem.u_mod.nm1_sfd_i[7:0]
+@200
+----
+@22
+tb_test_modem_channel.dut.u_modem.u_dem.det_th_i[15:0]
+@40000022
+[fpshift_count] 0
+tb_test_modem_channel.dut.u_modem.u_dem.pll_ki_i[15:0]
+[fpshift_count] 0
+tb_test_modem_channel.dut.u_modem.u_dem.pll_kp_i[15:0]
+@200
+-
+-
+---------------------
+-Digital Input Stream
+@22
+tb_test_modem_channel.tb_dut_is_data_i[7:0]
+@28
+tb_test_modem_channel.tb_dut_is_dv_i
+tb_test_modem_channel.tb_dut_is_rfd_o
+@200
+-
+-Output stream to DAC
+@22
+[color] 3
+tb_test_modem_channel.dut.u_modem.dac_os_data_o[9:0]
+@40000420
+[color] 3
+[fpshift_count] 8
+tb_test_modem_channel.dut.u_modem.dac_os_data_o[9:0]
+@40008420
+[color] 3
+[fpshift_count] 8
+tb_test_modem_channel.dut.u_modem.dac_os_data_o[9:0]
+@20000
+-
+-
+-
+-
+-
+@28
+tb_test_modem_channel.dut.u_modem.dac_os_dv_o
+tb_test_modem_channel.dut.u_modem.dac_os_rfd_i
+@200
+---------------------
+-Input Stream from ADC
+@22
+[color] 2
+tb_test_modem_channel.dut.u_modem.adc_is_data_i[9:0]
+@40000420
+[color] 2
+[fpshift_count] 8
+tb_test_modem_channel.dut.u_modem.adc_is_data_i[9:0]
+@40008420
+[color] 2
+[fpshift_count] 8
+tb_test_modem_channel.dut.u_modem.adc_is_data_i[9:0]
+@20000
+-
+-
+-
+-
+-
+@28
+tb_test_modem_channel.dut.u_modem.adc_is_dv_i
+tb_test_modem_channel.dut.u_modem.adc_is_rfd_o
+@200
+-
+-Output digital Stream
+@22
+tb_test_modem_channel.tb_dut_os_data_o[7:0]
+@28
+tb_test_modem_channel.tb_dut_os_dv_o
+tb_test_modem_channel.tb_dut_os_rfd_i
+@200
+---------------------
+-
+-
+-Mapper
+@28
+tb_test_modem_channel.dut.u_modem.u_mod.u_mapper.os_mdata_o[1:0]
+@8420
+tb_test_modem_channel.dut.u_modem.u_mod.u_mapper.os_mdata_o[1:0]
+@200
+-
+-Deltas
+@28
+tb_test_modem_channel.dut.u_modem.u_mod.u_zero_append.is_mdata_i[1:0]
+[color] 7
+tb_test_modem_channel.dut.u_modem.u_mod.u_zero_append.os_deltas_o[1:0]
+@8420
+[color] 7
+tb_test_modem_channel.dut.u_modem.u_mod.u_zero_append.os_deltas_o[1:0]
+@20000
+-
+-
+-
+-
+@200
+-FIR outpus
+@22
+tb_test_modem_channel.dut.u_modem.u_mod.u_fir.os_data_o[9:0]
+@40000420
+[fpshift_count] 8
+tb_test_modem_channel.dut.u_modem.u_mod.u_fir.os_data_o[9:0]
+@40008420
+[fpshift_count] 8
+tb_test_modem_channel.dut.u_modem.u_mod.u_fir.os_data_o[9:0]
+@20000
+-
+-
+-
+-
+-
+@200
+-
+-
+-Channel Output
+@22
+tb_test_modem_channel.dut.u_channel.os_data_o[9:0]
+@40000420
+[fpshift_count] 8
+tb_test_modem_channel.dut.u_channel.os_data_o[9:0]
+@40008420
+[color] 2
+[fpshift_count] 8
+tb_test_modem_channel.dut.u_channel.os_data_o[9:0]
+@20000
+-
+-
+-
+-
+-
+@28
+tb_test_modem_channel.dut.u_channel.os_dv_o
+tb_test_modem_channel.dut.u_channel.os_rfd_i
+@200
+-
+-
+-
+-Matched Filter
+-input
+@40008420
+[color] 3
+[fpshift_count] 8
+tb_test_modem_channel.dut.u_modem.u_dem.u_matched_filter.is_data_i[9:0]
+@20000
+-
+-
+-
+@200
+-output
+@22
+tb_test_modem_channel.dut.u_modem.u_dem.u_matched_filter.os_data_o[9:0]
+@40000420
+[fpshift_count] 8
+tb_test_modem_channel.dut.u_modem.u_dem.u_matched_filter.os_data_o[9:0]
+@40008420
+[color] 3
+[fpshift_count] 8
+tb_test_modem_channel.dut.u_modem.u_dem.u_matched_filter.os_data_o[9:0]
+@20000
+-
+-
+-
+@200
+-
+-Subsampled signal
+@22
+tb_test_modem_channel.dut.u_modem.u_dem.sample0_s[9:0]
+@8420
+[color] 1
+tb_test_modem_channel.dut.u_modem.u_dem.sample0_s[9:0]
+@20000
+-
+-
+-
+@200
+-
+-Estimated Binary Sequence
+@28
+tb_test_modem_channel.dut.u_modem.u_dem.new_bit_s
+[color] 2
+tb_test_modem_channel.dut.u_modem.u_dem.bit_s
+@200
+-
+-
+-PLL Signals
+@22
+tb_test_modem_channel.dut.u_modem.u_dem.pll_kp_i[15:0]
+tb_test_modem_channel.dut.u_modem.u_dem.pll_ki_i[15:0]
+@200
+-
+-Proportional Error
+@22
+tb_test_modem_channel.dut.u_modem.u_dem.u_symb_sync.u_pll.prop_err_s[15:0]
+@8420
+[color] 2
+tb_test_modem_channel.dut.u_modem.u_dem.u_symb_sync.u_pll.prop_err_s[15:0]
+@20000
+-
+-
+-
+-
+-
+@200
+-Integral Error
+@22
+tb_test_modem_channel.dut.u_modem.u_dem.u_symb_sync.u_pll.int_err_s[15:0]
+@8420
+[color] 3
+tb_test_modem_channel.dut.u_modem.u_dem.u_symb_sync.u_pll.int_err_s[15:0]
+@20000
+-
+-
+-
+-
+-
+@200
+-Phase Error (I.Error + P.Error)
+@420
+tb_test_modem_channel.dut.u_modem.u_dem.u_symb_sync.u_pll.phase_est_s[15:0]
+@8420
+[color] 1
+tb_test_modem_channel.dut.u_modem.u_dem.u_symb_sync.u_pll.phase_est_s[15:0]
+@20000
+-
+-
+-
+-
+-
+@200
+-
+-
+-
+-
+-
+-
+-
+[pattern_trace] 1
+[pattern_trace] 0
