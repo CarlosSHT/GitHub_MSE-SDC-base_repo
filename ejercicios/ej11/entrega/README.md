@@ -82,13 +82,10 @@ Los alumnos son libres de incluir cualquier otro tipo de información que deseen
 
 ![ILA](./imgs_practica/img07.PNG)
 
-- Simular
+- Simulaación e Implementar
+  - Se utilizó la tarjeta Arty z20, y se evaluó distintos niveles de ruido, longitud del SFD , trigger por data diferente de 0, entre otros.
 
-
-
-- Implementar
-
-
+![Artyz20](./imgs_practica/img08.PNG)
 
 
 
