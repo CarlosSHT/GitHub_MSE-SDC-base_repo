@@ -1,0 +1,168 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Thu May  2 12:06:21 2024
+[*]
+[dumpfile] "/mnt/d/Google_Drive_Win10_UPC/UBA_MSE/09_SDC/Software/VHDL/Personal/modem/verification/tb_bb_modulator/waves.fst"
+[dumpfile_mtime] "Thu May  2 12:05:22 2024"
+[dumpfile_size] 51542
+[savefile] "/mnt/d/Google_Drive_Win10_UPC/UBA_MSE/09_SDC/Software/VHDL/Personal/modem/verification/tb_bb_modulator/ej07.gtkw"
+[timestart] 0
+[size] 1908 997
+[pos] -432 -264
+*-35.374550 54500000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_bb_modulator.
+[treeopen] tb_bb_modulator.dut.
+[sst_width] 288
+[signals_width] 499
+[sst_expanded] 1
+[sst_vpaned_height] 561
+@200
+-Curso SDC
+-Calros Herrera Trujillo
+-
+@800200
+-TB_Signals
+@200
+-
+-System signals (clock and control)
+@800028
++{tb_bb_modulator.tb_dut_clk_i (clock system)} #{tb_bb_modulator.tb_dut_clk_i} tb_bb_modulator.tb_dut_clk_i
+@1001200
+-group_end
+@28
++{tb_bb_modulator.tb_dut_en_i (enable system)} tb_bb_modulator.tb_dut_en_i
++{tb_bb_modulator.tb_dut_srst_i (reset system)} tb_bb_modulator.tb_dut_srst_i
+@200
+-
+-Control and Status
+@28
++{tb_bb_modulator.tb_dut_send_i (start transmission)} tb_bb_modulator.tb_dut_send_i
++{tb_bb_modulator.tb_dut_tx_rdy_o (modulator ready for TX)} tb_bb_modulator.tb_dut_tx_rdy_o
+@24
++{tb_bb_modulator.dut.u_cu.nm1_bytes_i[7:0] (M-1 data bytes)} tb_bb_modulator.dut.u_cu.nm1_bytes_i[7:0]
++{tb_bb_modulator.dut.u_cu.nm1_pre_i[7:0] (N-1 preamble symbols)} tb_bb_modulator.dut.u_cu.nm1_pre_i[7:0]
++{tb_bb_modulator.dut.u_cu.nm1_sfd_i[7:0] (P-1 sfd symbols)} tb_bb_modulator.dut.u_cu.nm1_sfd_i[7:0]
+@200
+-
+-
+-Input Stream
+@22
+[color] 5
++{tb_bb_modulator.tb_dut_is_data_i[7:0] (digital input data)} tb_bb_modulator.tb_dut_is_data_i[7:0]
+@28
++{tb_bb_modulator.tb_dut_is_dv_i (input data valid)} tb_bb_modulator.tb_dut_is_dv_i
++{tb_bb_modulator.tb_dut_is_rfd_o (input is ready for data)} tb_bb_modulator.tb_dut_is_rfd_o
+@200
+-
+-OutputStream
+@c00022
+[color] 3
++{tb_bb_modulator.tb_dut_os_data_o[9:0] (dig output data Q10_8)} tb_bb_modulator.tb_dut_os_data_o[9:0]
+@28
+[color] 3
+(0)tb_bb_modulator.tb_dut_os_data_o[9:0]
+[color] 3
+(1)tb_bb_modulator.tb_dut_os_data_o[9:0]
+[color] 3
+(2)tb_bb_modulator.tb_dut_os_data_o[9:0]
+[color] 3
+(3)tb_bb_modulator.tb_dut_os_data_o[9:0]
+[color] 3
+(4)tb_bb_modulator.tb_dut_os_data_o[9:0]
+[color] 3
+(5)tb_bb_modulator.tb_dut_os_data_o[9:0]
+[color] 3
+(6)tb_bb_modulator.tb_dut_os_data_o[9:0]
+[color] 3
+(7)tb_bb_modulator.tb_dut_os_data_o[9:0]
+[color] 3
+(8)tb_bb_modulator.tb_dut_os_data_o[9:0]
+[color] 3
+(9)tb_bb_modulator.tb_dut_os_data_o[9:0]
+@1401200
+-group_end
+@40000420
+[color] 3
+[fpshift_count] 8
++{tb_bb_modulator.tb_dut_os_data_o[9:0] (output data decimal)} tb_bb_modulator.tb_dut_os_data_o[9:0]
+@8420
+[color] 3
++{tb_bb_modulator.tb_dut_os_data_o[9:0] (analog output data)} tb_bb_modulator.tb_dut_os_data_o[9:0]
+@20000
+-
+-
+-
+-
+-
+@200
+-
+@28
++{tb_bb_modulator.tb_dut_os_dv_o (output data valid)} tb_bb_modulator.tb_dut_os_dv_o
++{tb_bb_modulator.tb_dut_os_rfd_i (output is ready for data)} tb_bb_modulator.tb_dut_os_rfd_i
+@200
+-
+@1000200
+-TB_Signals
+@200
+-
+-
+-
+@800200
+-Modulated Data - Start to End
+@200
+-Input data bytes
+@22
++{tb_bb_modulator.dut.is_data_i[7:0] (data input byte val)} tb_bb_modulator.dut.is_data_i[7:0]
+@200
+-
+-input data -> (delay) -> mapper output
+@28
++{tb_bb_modulator.dut.u_mapper.os_mdata_o[1:0] (mapper output)} tb_bb_modulator.dut.u_mapper.os_mdata_o[1:0]
+@8420
++{tb_bb_modulator.dut.u_mapper.os_mdata_o[1:0] (mapper output)} tb_bb_modulator.dut.u_mapper.os_mdata_o[1:0]
+@20000
+-
+@28
++{tb_bb_modulator.dut.u_zero_append.is_mdata_i[1:0] (zero append input)} tb_bb_modulator.dut.u_zero_append.is_mdata_i[1:0]
+@420
++{tb_bb_modulator.dut.u_zero_append.is_mdata_i[1:0] (zero append input)} tb_bb_modulator.dut.u_zero_append.is_mdata_i[1:0]
+@200
+-
+-Deltas
+@28
++{tb_bb_modulator.dut.u_zero_append.os_deltas_o[1:0] (deltas)} tb_bb_modulator.dut.u_zero_append.os_deltas_o[1:0]
+@420
+[color] 4
++{tb_bb_modulator.dut.u_zero_append.os_deltas_o[1:0] (deltas)} tb_bb_modulator.dut.u_zero_append.os_deltas_o[1:0]
+@8420
+[color] 6
++{tb_bb_modulator.dut.u_zero_append.os_deltas_o[1:0] (deltas)} tb_bb_modulator.dut.u_zero_append.os_deltas_o[1:0]
+@20000
+-
+-
+@200
+-
+-Output Stream Signal - Shaping FIR
+@22
+tb_bb_modulator.dut.u_fir.os_data_o[9:0]
+@40000420
+[color] 2
+[fpshift_count] 8
+tb_bb_modulator.dut.u_fir.os_data_o[9:0]
+@40008420
+[color] 3
+[fpshift_count] 8
+tb_bb_modulator.dut.u_fir.os_data_o[9:0]
+@20000
+-
+-
+-
+-
+-
+@1000200
+-Modulated Data - Start to End
+@20000
+-
+-
+[pattern_trace] 1
+[pattern_trace] 0
