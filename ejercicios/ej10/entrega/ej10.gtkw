@@ -1,0 +1,302 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Thu May  2 12:15:32 2024
+[*]
+[dumpfile] "/mnt/d/Google_Drive_Win10_UPC/UBA_MSE/09_SDC/Software/VHDL/Personal/modem/verification/tb_top_edu_bbt/waves.fst"
+[dumpfile_mtime] "Thu May  2 12:14:51 2024"
+[dumpfile_size] 15031148
+[savefile] "/mnt/d/Google_Drive_Win10_UPC/UBA_MSE/09_SDC/Software/VHDL/Personal/modem/verification/tb_top_edu_bbt/ej10.gtkw"
+[timestart] 366900000000
+[size] 1908 997
+[pos] 22 -234
+*-33.458405 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_top_edu_bbt.
+[treeopen] tb_top_edu_bbt.u_dut.
+[treeopen] tb_top_edu_bbt.u_dut.u_modem.
+[treeopen] tb_top_edu_bbt.u_dut.u_modem.u_dem.
+[sst_width] 288
+[signals_width] 331
+[sst_expanded] 1
+[sst_vpaned_height] 292
+@200
+-Curso SDC
+-Ejercicio 10
+-Carlos Herrera Trujillo
+-
+-
+-
+@28
+tb_top_edu_bbt.tb_dut_clk_i
+tb_top_edu_bbt.tb_uart_arst
+@200
+-UART Serial bits TX
+@28
+[color] 3
+tb_top_edu_bbt.tb_dut_rx_i
+@200
+-UART Serial bits RX
+@28
+[color] 2
+tb_top_edu_bbt.tb_dut_tx_o
+@200
+-
+-
+@800200
+-Sif UART
+@200
+-SIF UART Byte Tx
+@22
+[color] 7
+tb_top_edu_bbt.u_dut.u_uart.rx_os_data_o[7:0]
+@28
+tb_top_edu_bbt.u_dut.u_uart.rx_os_dv_o
+tb_top_edu_bbt.u_dut.u_uart.rx_os_rfd_i
+@200
+-SIF UART Byte Rx
+@22
+tb_top_edu_bbt.u_dut.u_uart.tx_is_data_i[7:0]
+@28
+tb_top_edu_bbt.u_dut.u_uart.tx_is_dv_i
+tb_top_edu_bbt.u_dut.u_uart.tx_is_rfd_o
+@1000200
+-Sif UART
+@200
+-
+-
+-
+@800200
+-TX FIFO
+@200
+-TX FIFO input bytes serial
+@22
+[color] 3
+tb_top_edu_bbt.u_dut.u_tx_fifo.is_data_i[7:0]
+@28
+tb_top_edu_bbt.u_dut.u_tx_fifo.is_dv_i
+tb_top_edu_bbt.u_dut.u_tx_fifo.is_rfd_o
+@200
+-
+-Counter N Data
+@22
+[color] 2
+tb_top_edu_bbt.u_dut.u_tx_fifo.data_count_o[7:0]
+@8022
+[color] 2
+tb_top_edu_bbt.u_dut.u_tx_fifo.data_count_o[7:0]
+@20000
+-
+-
+@200
+-
+-TX FIFO output byte fast
+@22
+[color] 1
+tb_top_edu_bbt.u_dut.u_tx_fifo.os_data_o[7:0]
+@28
+tb_top_edu_bbt.u_dut.u_tx_fifo.os_dv_o
+tb_top_edu_bbt.u_dut.u_tx_fifo.os_rfd_i
+@1000200
+-TX FIFO
+@200
+-
+-
+@800200
+-Send Logic Signals
+@200
+-Send Logic
+@28
+tb_top_edu_bbt.u_dut.uart_os_dv_s
+tb_top_edu_bbt.u_dut.uart_os_rfd_s
+tb_top_edu_bbt.u_dut.modem_is_dv_s
+tb_top_edu_bbt.u_dut.modem_is_rfd_s
+[color] 2
+tb_top_edu_bbt.u_dut.modem_tx_rdy_s
+@22
+[color] 2
+tb_top_edu_bbt.u_dut.pipe_data_counter_s[7:0]
+@28
+[color] 1
+tb_top_edu_bbt.u_dut.modem_send_s
+@1000200
+-Send Logic Signals
+@200
+-
+-
+@800200
+-Modem Signals
+@200
+-Modem Control Signals
+@28
+[color] 2
+tb_top_edu_bbt.u_dut.u_modem.send_i
+tb_top_edu_bbt.u_dut.u_modem.en_i
+@24
+[color] 2
+tb_top_edu_bbt.u_dut.u_modem.nm1_bytes_i[7:0]
+[color] 2
+tb_top_edu_bbt.u_dut.u_modem.nm1_pre_i[7:0]
+[color] 2
+tb_top_edu_bbt.u_dut.u_modem.nm1_sfd_i[7:0]
+@200
+-Modem Input Data (Tx Bytes)
+@22
+[color] 3
+tb_top_edu_bbt.u_dut.u_modem.is_data_i[7:0]
+@28
+tb_top_edu_bbt.u_dut.u_modem.is_dv_i
+tb_top_edu_bbt.u_dut.u_modem.is_rfd_o
+@200
+-Modem Output Analog (DAC)
+@40000420
+[fpshift_count] 8
+tb_top_edu_bbt.u_dut.u_modem.dac_os_data_o[9:0]
+@40008420
+[color] 3
+[fpshift_count] 8
+tb_top_edu_bbt.u_dut.u_modem.dac_os_data_o[9:0]
+@20000
+-
+-
+@28
+tb_top_edu_bbt.u_dut.u_modem.dac_os_dv_o
+tb_top_edu_bbt.u_dut.u_modem.dac_os_rfd_i
+@200
+-
+-Modem Input Analog (ADC)
+@40000420
+[fpshift_count] 8
+tb_top_edu_bbt.u_dut.u_modem.adc_is_data_i[9:0]
+@8420
+[color] 7
+tb_top_edu_bbt.u_dut.u_modem.adc_is_data_i[9:0]
+@20000
+-
+-
+-
+@28
+tb_top_edu_bbt.u_dut.u_modem.adc_is_dv_i
+tb_top_edu_bbt.u_dut.u_modem.adc_is_rfd_o
+@200
+-Modem Output Data (Rx Bytes)
+@22
+[color] 7
+tb_top_edu_bbt.u_dut.u_modem.os_data_o[7:0]
+@28
+tb_top_edu_bbt.u_dut.u_modem.os_dv_o
+tb_top_edu_bbt.u_dut.u_modem.os_rfd_i
+@1000200
+-Modem Signals
+@200
+-
+-
+-
+@c00200
+-RX FIFO
+@200
+-RX FIFO input bytes fast
+@22
+[color] 3
+tb_top_edu_bbt.u_dut.u_rx_fifo.is_data_i[7:0]
+@28
+tb_top_edu_bbt.u_dut.u_rx_fifo.is_dv_i
+tb_top_edu_bbt.u_dut.u_rx_fifo.is_rfd_o
+@200
+-
+-Counter N Data
+@22
+[color] 2
+tb_top_edu_bbt.u_dut.u_rx_fifo.data_count_o[7:0]
+@8022
+[color] 2
+tb_top_edu_bbt.u_dut.u_rx_fifo.data_count_o[7:0]
+@20000
+-
+-
+@200
+-
+-RX FIFO output byte serial
+@22
+tb_top_edu_bbt.u_dut.u_rx_fifo.os_data_o[7:0]
+@28
+tb_top_edu_bbt.u_dut.u_rx_fifo.os_dv_o
+tb_top_edu_bbt.u_dut.u_rx_fifo.os_rfd_i
+@1401200
+-RX FIFO
+@200
+-
+-UART Serial bits RX
+@28
+[color] 7
+tb_top_edu_bbt.tb_dut_tx_o
+@200
+-
+-Demodulator Matching Signal
+@8421
+[color] 3
+tb_top_edu_bbt.u_dut.u_modem.u_dem.u_matched_filter.os_data_o[9:0]
+@20000
+-
+-
+-
+-
+@200
+-PLL
+@8420
+tb_top_edu_bbt.u_dut.u_modem.u_dem.u_symb_sync.u_pll.phase_est_s[15:0]
+@20000
+-
+-
+-
+-
+-
+-
+-
+@200
+-
+-
+-
+-
+@20000
+-
+-
+-
+-
+@200
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+[pattern_trace] 1
+[pattern_trace] 0
